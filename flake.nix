@@ -15,10 +15,9 @@
       rec {
         devShells.default = pkgs.mkShellNoCC {
           packages =
-          with pkgs;
           with pkgs.python313Packages;
           [
-            python313
+            pkgs.python3
             #python3 packages
 
             # Interactive Python shell.
