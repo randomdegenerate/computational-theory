@@ -28,7 +28,7 @@
           packages =
             [
                 # define python3 package and the modules within the package
-                # aligning versioning and ensuring it works
+                # aligning versioning and ensuring no messy work with versioning
                 (pkgs.python3.withPackages(pythonPackages: with pythonPackages; [
                     # Interactive Python shell.
                     ipython
