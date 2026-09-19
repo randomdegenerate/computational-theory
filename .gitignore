@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,windows,macos,linux,jupyternotebooks,visualstudiocode,vim,c,rust,zsh
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,macos,linux,jupyternotebooks,visualstudiocode,vim,c,rust,zsh
 
+
 ### C ###
 # Prerequisites
 *.d
